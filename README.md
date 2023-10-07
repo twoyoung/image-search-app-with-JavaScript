@@ -1,8 +1,11 @@
+# Image Search App
+
 - This is a simple web app with the functionality of searching and fetching images through the API of https://unsplash.com/documentation
 - languages: HTML, CSS, Javascript
+- It is built following the instruction of https://www.youtube.com/watch?v=oaliV2Dp7WQ&list=PL9bD98LkBR7P16BndaNtP4x6Wf5Ib85Hm&index=1&ab_channel=Tech2etc
 
-# Things learnt:
-## DOM operations:
+## Things learnt:
+### DOM operations:
 ```
 const formEl = document.querySelector("form");
 
@@ -32,7 +35,7 @@ imageWrapper.appendChild(image);
 showMore.style.display = "block";
 ```
 
-## JavaScript methods & functions:
+### JavaScript methods & functions:
 ```
 formEl.addEventListener("submit", (event)=>{
     event.preventDefault();
@@ -50,6 +53,6 @@ const data = await response.json();
 results.map((result) => {});
 ```
 
-## async, await; synchronous vs asynchronous 
+### async, await; synchronous vs asynchronous 
 - The use of 'async' and 'await' in JavaScript is a way to convert its inherently single-threaded, synchronous runtime into a more asynchronous one. This transformation helps prevent time-consuming code from obstructing the program's execution flow. 
 - These mechanisms are typically employed when handling tasks such as data retrieval, file reading, or managing timers.
