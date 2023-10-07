@@ -1,5 +1,5 @@
-This is a simple web app with the functionality of searching and fetching images through the API of https://unsplash.com/documentation
-languages: HTML, CSS, Javascript
+- This is a simple web app with the functionality of searching and fetching images through the API of https://unsplash.com/documentation
+- languages: HTML, CSS, Javascript
 
 # Things learnt:
 ## DOM operations:
