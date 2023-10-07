@@ -1,4 +1,8 @@
-# DOM operations:
+This is a simple web app with the functionality of searching and fetching images through the API of https://unsplash.com/documentation
+languages: HTML, CSS, Javascript
+
+# Things learnt:
+## DOM operations:
 ```
 const formEl = document.querySelector("form");
 
@@ -28,7 +32,7 @@ imageWrapper.appendChild(image);
 showMore.style.display = "block";
 ```
 
-# JavaScript methods & functions:
+## JavaScript methods & functions:
 ```
 formEl.addEventListener("submit", (event)=>{
     event.preventDefault();
@@ -46,6 +50,6 @@ const data = await response.json();
 results.map((result) => {});
 ```
 
-# async, await; synchronous vs asynchronous 
+## async, await; synchronous vs asynchronous 
 - The use of 'async' and 'await' in JavaScript is a way to convert its inherently single-threaded, synchronous runtime into a more asynchronous one. This transformation helps prevent time-consuming code from obstructing the program's execution flow. 
 - These mechanisms are typically employed when handling tasks such as data retrieval, file reading, or managing timers.
